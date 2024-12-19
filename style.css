@@ -1,3 +1,43 @@
 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+}
+header {
+    background-color: #ff7f50;
+}
+footer {
+    background-color: #2e8b57; 
+}
 
+/* Navigation */
+nav {
+    background-color: #4682b4;
+    padding: 1em;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 1em;
+}
+
+/* Project Embeds */
+.projects iframe {
+    margin: 10px;
+    border: none;
 }
